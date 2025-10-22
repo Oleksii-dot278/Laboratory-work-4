@@ -1,5 +1,5 @@
 numbers = {1, 2, 3, 3, 2}
-print(numbers)  # {1, 2, 3} — 
+print(numbers)  
 
 
 numbers.add(4)
