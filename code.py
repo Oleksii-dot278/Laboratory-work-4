@@ -28,3 +28,21 @@ print("Мін:", min(numbers))
 numbers = [10, 20, 30]
 print("Сума чисел:", sum(numbers))
 
+
+
+idk = ["предмет", "людина", "сила"]
+
+for idk in idk:
+    print("Типу це", idk)
+
+count = 1
+
+while count <= 5:
+    print("Номер", count)
+    count += 1
+
+
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"{i} x {j} = {i*j}")
+    print("---")
