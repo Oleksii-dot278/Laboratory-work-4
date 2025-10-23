@@ -103,7 +103,18 @@ finally:
 
 
 
+with open("example.txt", "w", encoding="utf-8") as file:
+    file.write("Hello\n")
+    file.write("Hell yeah")
 
+
+print("Ready")
+
+
+with open("example.txt", "r", encoding="utf-8") as f:
+    content = f.read()
+    print("Inside: ")
+    print(content)
 
 
 
