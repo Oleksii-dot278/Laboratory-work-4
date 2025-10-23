@@ -80,3 +80,31 @@ else:
     print("Число не є додатним")
 
 
+
+try:
+    x = 10
+    y = 0
+    result = x / y
+    print("Результат:", result)
+except ZeroDivisionError:
+    print("Ділення на нуль неможливе")
+finally:
+    print("у будь-якому випадку.")
+
+
+try:
+    number = int("Python")  
+    print("Число:", number)
+except ValueError:
+    print("Неможливо перетворити рядок у число.")
+finally:
+    print("Обробка завершена.")
+
+
+
+
+
+
+
+
+
