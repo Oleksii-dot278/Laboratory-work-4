@@ -46,3 +46,37 @@ for i in range(1, 4):
     for j in range(1, 4):
         print(f"{i} x {j} = {i*j}")
     print("---")
+
+
+
+age = 18
+
+if age >= 18:
+    print("Повноліття")
+else:
+    print("Неповноліття")
+
+
+temperature = 10
+
+if temperature > 25:
+    print("Сьогодні спекотно ")
+elif temperature > 15:
+    print("Сьогодні тепло ")
+elif temperature > 5:
+    print("Прохолодно ")
+else:
+    print("Холодно ")
+
+
+x = 5
+
+if x > 0:
+    if x % 2 == 0:
+        print("Додатне парне число")
+    else:
+        print("Додатне непарне число")
+else:
+    print("Число не є додатним")
+
+
