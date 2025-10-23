@@ -123,3 +123,34 @@ print(sum_lambda(3, 7))
 square_lambda = lambda x: x ** 2
 print(square_lambda(5))
 
+
+name = "Олена"      # рядок (str)
+age = 25            # ціле число (int)
+height = 1.68       # число з плаваючою комою (float)
+is_student = True   # логічне значення (bool)
+
+print(name, age, height, is_student)
+
+score = 85
+
+if score >= 90:
+    print("Відмінно!")
+elif score >= 70:
+    print("Добре!")
+else:
+    print("Потрібно підтягнути знання.")
+
+# цикл for
+for i in range(5):
+    print("Крок", i)
+
+# цикл while
+count = 0
+while count < 3:
+    print("Рахунок:", count)
+    count += 1
+
+fruits = ["яблуко", "банан", "вишня"]
+fruits.append("ківі")
+fruits.remove("банан")
+print("Мої фрукти:", fruits)
