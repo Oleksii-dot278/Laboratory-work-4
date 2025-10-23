@@ -117,5 +117,9 @@ with open("example.txt", "r", encoding="utf-8") as f:
     print(content)
 
 
+sum_lambda = lambda a, b: a + b
+print(sum_lambda(3, 7))
 
+square_lambda = lambda x: x ** 2
+print(square_lambda(5))
 
