@@ -17,3 +17,14 @@ print(a - b)
 print(True)
 print(False)
 print(None)
+
+text = "Python"
+print("Довжина :", len(text))
+
+numbers = [3, 7, 1, 9, 5]
+print("Макс:", max(numbers))
+print("Мін:", min(numbers))
+
+numbers = [10, 20, 30]
+print("Сума чисел:", sum(numbers))
+
