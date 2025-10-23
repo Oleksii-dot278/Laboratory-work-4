@@ -12,3 +12,8 @@ b = {3, 4, 5}
 print(a | b)  
 print(a & b)  
 print(a - b)  
+
+
+print(True)
+print(False)
+print(None)
